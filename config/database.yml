@@ -1,0 +1,25 @@
+
+development:
+  adapter: postgresql
+  encoding: unicode
+  database: mike_tener_development
+  pool: 5
+  username: MTen
+  password:
+  
+test:
+  adapter: postgresql
+  encoding: unicode
+  database: mike_tener_test
+  pool: 5
+  username: MTen
+  password:
+
+production:
+  adapter: postgresql
+  encoding: unicode
+  database: mike_tener_production
+  pool: 5
+  username: MTen
+  password:
+
