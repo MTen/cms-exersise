@@ -1,0 +1,9 @@
+.navbar
+  {
+    height:60px;
+  }
+
+.navbar li
+  {
+  display:inline;
+  }

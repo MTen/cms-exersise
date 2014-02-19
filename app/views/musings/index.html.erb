@@ -1,10 +1,15 @@
 <html>
-  <head>
-    
-  </head>
   <body>
     <h1>
       This is the index page
     </h1>
+    <% @musings.each do |l| %>
+      <div class="" id="brain_burp%>">
+        <h3><%= l.title %></h3>
+        <p><%= l.brain_burp %></p>
+        <p><%=link_to("delete", method: :delete) %>
+      </div>
+    <% end %>
+
   </body>
 </html>
