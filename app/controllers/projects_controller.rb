@@ -1,11 +1,11 @@
 class ProjectsController < ApplicationController
 
 def create
-@project = Project.create(project_params)
+	@project = Project.create(project_params)
 end
 
 def index
-@projects = Project.all
+	@projects = Project.all
 end
 
 def show

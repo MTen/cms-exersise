@@ -1,0 +1,14 @@
+<nav class='container primary'>
+	<div class='offset-by-four'>
+		<ul>
+			<li><%= link_to("Home", controller: "welcome", action: "index") %></li>
+			<li><%= link_to("Musings", controller: "musings", action: "index") %></li>
+			<li><%= link_to("Interests", controller: "musings", action: "index") %></li>
+			<li><%= link_to("Professional","#") %>
+				<ul>
+					<li><%= link_to("Portfolio", controller: "projects", action: "index") %></li>
+					<li><%= link_to("Resume", "welcome/show")%></li>
+				</ul>
+			</li>
+	</div>
+</nav>

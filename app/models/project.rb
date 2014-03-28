@@ -1,2 +1,2 @@
-class Projects < ActiveRecord::Base
+class Project < ActiveRecord::Base
 end
