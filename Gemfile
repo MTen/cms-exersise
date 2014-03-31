@@ -1,5 +1,8 @@
 source 'https://rubygems.org'
 
+#Declaring ruby version for deployment
+ruby '2.0.0'
+
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails'
 
@@ -17,9 +20,6 @@ gem 'haml'
 
 # Use CoffeeScript for .js.coffee assets and views
 gem 'coffee-rails', '~> 4.0.0'
-
-#
-
 
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
