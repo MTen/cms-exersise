@@ -35,7 +35,7 @@ nav.primary ul ul {
   /* Hiding submenu off screen */
   position:absolute;
   z-index: 999;
-  background: ;
+/*background: ;*/
   /* Crushing submenu to 0px, still viewable by web crawlers, not by people. */
   height: 0;
   overflow: hidden;
