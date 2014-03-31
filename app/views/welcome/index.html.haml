@@ -4,7 +4,7 @@
   .offset-by-six
     %h2= "Maker of #{link_to 'Stuff', projects_url}".html_safe
   .offset-by-seven
-    %img(src="/assets/wizard.svg" height=125)
+    =image_tag asset_path('wizard.svg'), size: '125x125'
 
 .eight.columns.offset-by-four
   %p= "Please forgive the appearance of my site - I'm building this on my own server which is turning out to be a great learning experience."
