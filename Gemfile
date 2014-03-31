@@ -18,6 +18,8 @@ gem 'haml'
 # Use CoffeeScript for .js.coffee assets and views
 gem 'coffee-rails', '~> 4.0.0'
 
+#
+
 
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
@@ -39,15 +41,15 @@ end
 # Use unicorn as the app server
 gem 'unicorn'
 
-# Use Capistrano for deployment
-gem 'capistrano', group: :development
-gem 'rvm-capistrano'
+gem 'rails_12factor', group: :production
+
+
 
 # Use debugger
 # gem 'debugger', group: [:development, :test]
 
 group :development do
-#Because rspec is better than Test::Unit. Or so I'm told.
+  #Because rspec is better than Test::Unit. Or so I'm told.
   gem 'rspec-rails'
   #To test views.
   gem 'capybara'
@@ -55,4 +57,7 @@ group :development do
   gem 'pry'
   # See https://github.com/sstephenson/execjs#readme for more supported runtimes
   gem 'therubyracer', platforms: :ruby
+  # Use Capistrano for deployment
+  gem 'capistrano'
+  gem 'rvm-capistrano'
 end
