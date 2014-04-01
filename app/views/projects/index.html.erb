@@ -1,1 +1,9 @@
-<h1> stuff goes here<h2>
+<div class="container sixteen-columns projects">
+<% @projects.each do |p| %>
+  <div class="three-columns project">
+    <li><%=p.title%></li>
+    <li><%=p.img%></li>
+    <li><%=p.description%></li>
+  </div>
+<%end%>
+</div>
