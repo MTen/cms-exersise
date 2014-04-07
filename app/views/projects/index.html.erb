@@ -1,6 +1,6 @@
 <div class="container sixteen-columns projects">
 <% @projects.each do |p| %>
-  <div class="three-columns project">
+  <div class="three-columns project" a href="#{<%=p.url%>}">
     <li><%=p.title%></li>
     <li><%=p.img%></li>
     <li><%=p.description%></li>
