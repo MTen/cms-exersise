@@ -1,4 +1,12 @@
 /*navigation*/
+  #navbackground{
+    line-height: 49px;
+    width:100%;
+    background-color:#000000;
+    -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.3);
+    box-shadow:0px 4px 4px rgba(0, 0, 0, 0.3);
+  }
   nav.primary{
     display:table;
   }
@@ -94,7 +102,7 @@
     margin-top: 50px;
     border:solid;
     text-align:center;
-    box-shadow:10px 10px 20px #888888;
+    box-shadow:5px 5px 10px #888888;
   }
   .project li {
     list-style:none;

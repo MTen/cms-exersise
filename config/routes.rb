@@ -7,6 +7,7 @@ MikeTener::Application.routes.draw do
   resources :welcome
   resources :musings
   resources :projects
+  resources :interests
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'

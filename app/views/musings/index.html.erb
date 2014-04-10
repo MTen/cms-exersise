@@ -1,15 +1,13 @@
 <html>
-  <body>
-    <h1>
-      This is the index page
-    </h1>
-    <% @musings.each do |l| %>
-      <div class="" id="brain_burp%>">
-        <h3><%= l.title %></h3>
-        <p><%= l.brain_burp %></p>
-        <p><%=link_to("delete", method: :delete) %>
-      </div>
-    <% end %>
-
-  </body>
+<body>
+  <div class="container">
+    <div class="eight columns offset-by-four">
+      <h1> Welcome to the Muse</h1>
+    </div>
+    <div class="eight columns offset-by-four">
+      <p>This is a placeholder message for the blog portion of my site. I'm<br/>
+      working on creating an Evernote based CMS solution for my personal consumption.</p>
+    </div>
+  </div>
+</body>
 </html>
