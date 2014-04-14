@@ -1,9 +1,14 @@
 <div class="container sixteen-columns projects">
   <% @projects.each do |p| %>
-    <div class="three-columns project" a href="#{<%=p.url%>}">
-      <li><%=p.title%></li>
-      <li><%=p.img%></li>
-      <li><%=p.description%></li>
+    <div class="three-columns project">
+      <ul>
+        <li><%=p.title%></li>
+<!--         <li><%=p.img%></li> -->
+        <li><%=p.description%></li>
+      </ul>  
+      <div class='footer'>
+        <%= link_to("demo", url = p.url, target: "_blank")%> | <%= link_to("github", url = p.github, target: "_blank")%> 
+      </div>
     </div>
   <%end%>
 </div>
