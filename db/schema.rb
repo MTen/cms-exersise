@@ -16,6 +16,19 @@ ActiveRecord::Schema.define(version: 20141110181624) do
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
+  create_table "interests", force: true do |t|
+    t.string "url"
+    t.string "image"
+    t.string "description"
+  end
+
+  create_table "musings", force: true do |t|
+    t.string   "title"
+    t.text     "brain_burp"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
   create_table "portfolios", force: true do |t|
     t.string   "project_type"
     t.string   "img_src_file_name"
@@ -26,6 +39,14 @@ ActiveRecord::Schema.define(version: 20141110181624) do
     t.string   "img_alt"
     t.string   "title"
     t.text     "description"
+  end
+
+  create_table "projects", force: true do |t|
+    t.string "title"
+    t.string "url"
+    t.string "img"
+    t.text   "description"
+    t.string "github"
   end
 
 end
