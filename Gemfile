@@ -41,3 +41,6 @@ gem 'spring',        group: :development
 # Upload Files and Images
 gem 'paperclip', '~> 4.2'
 
+#Heroku Helper Gem
+gem 'rails_12factor'
+
