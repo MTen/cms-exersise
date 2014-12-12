@@ -42,5 +42,7 @@ gem 'spring',        group: :development
 gem 'paperclip', '~> 4.2'
 
 #Heroku Helper Gem
-gem 'rails_12factor'
+gem 'rails_12factor', group: :production
 
+gem 'comfortable_mexican_sofa', '~> 1.12.0'
+gem 'comfy_blog', '~> 1.12.0'
