@@ -1,17 +1,10 @@
 Rails.application.routes.draw do
-  comfy_route :blog_admin, :path => '/admin'
-  comfy_route :blog, :path => '/blog'
-
-  comfy_route :cms_admin, :path => '/admin'
-
-  # Make sure this routeset is defined last
-  comfy_route :cms, :path => '/', :sitemap => false
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
   # You can have the root of your site routed with "root"
-  root :to => "comfy/cms/content#show"
+  root to: 'welcome#index'
   get 'resume' => 'resume#resume'
   get 'portfolio' => 'portfolio#portfolio'
   get 'portfolio/new' => 'portfolio#new'
