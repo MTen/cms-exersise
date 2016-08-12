@@ -25,6 +25,10 @@ gem 'jbuilder', '~> 2.0'
 # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
 group :development do
   gem 'spring'
+  gem 'guard'
+  gem 'guard-livereload'
+  #For rubymine debugging
+  gem 'ruby-debug-ide'
 end
 
 # Upload Files and Images

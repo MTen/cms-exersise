@@ -22,17 +22,17 @@
 
 <body class="profile">
 	<div class="wrapper">
-		<%= render partial: "layouts/nav" %>
+		<%= render partial: "shared/nav" %>
 		<div class="content">
 			<div class="info">
-				<%= render partial: "layouts/header" %>
+				<%= render partial: "shared/header" %>
 				<div class = "innerContainer">
           <%= yield %>
         </div><!-- innerConatiner-->
 			</div> <!-- info -->
-			<%= render partial: "layouts/contact" %>
+			<%= render partial: "shared/contact" %>
 		</div> <!-- /content -->
-		<%= render partial: "layouts/footer" %>
+		<%= render partial: "shared/footer" %>
 	</div><!-- /wrapper -->	
 </body><!-- /profile -->
 </html>

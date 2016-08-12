@@ -44,7 +44,7 @@ nav li.links.current-menu-item a > span            { padding-left: 38px; }
 .recent-work-widget ul li 				{ float:left; margin:0 0 10px 10px; }
 .recent-work-widget ul li:first-child	{ margin-top:0 !important; }
 .recent-work-widget ul li .post-thumb	{ margin:0 !important; }
-footer                                  { clear: both; margin-left: 40px; padding-top: 10px; background: url('/assets/shadow-footer-960.png') no-repeat 0px 0px; }
+footer                                  { clear: both; margin-left: 40px; padding-top: 10px; }
 
 /* Profile */
 .profile .sidebar                       { float: right; width: 190px; min-height: 330px; margin-top: 20px; margin-right: 40px; }
